@@ -1,0 +1,21 @@
+{
+  "labelName": "Enter your name",
+  "placeholderName": "enter your name",
+  "buttonStarted": "Get Started",
+  "gameCreated": "Create a game",
+  "joinPin": "Join with PIN",
+  "qrScan": "Scan QR",
+  "randomPress": "Tap here to play buzzor randomly",
+  "tabMaster": "Master",
+  "tabRoom": "Room",
+  "qrGenerate": "Generate QR",
+  "pinGenerate": "Generate PIN",
+  "pinBack": "Enter PIN",
+  "pinHeading": "Enter PIN to join",
+  "buttonJoin": "Join",
+  "qrBack": "QR Scanner",
+  "qrHeading": "Scan QR to join",
+  "timeStamp": "Last Time Stamp"
+
+
+}

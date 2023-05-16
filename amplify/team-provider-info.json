@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-buzzerapp-staging-102730-authRole",
+      "UnauthRoleArn": "arn:aws:iam::513797383767:role/amplify-buzzerapp-staging-102730-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::513797383767:role/amplify-buzzerapp-staging-102730-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-buzzerapp-staging-102730-deployment",
+      "UnauthRoleName": "amplify-buzzerapp-staging-102730-unauthRole",
+      "StackName": "amplify-buzzerapp-staging-102730",
+      "StackId": "arn:aws:cloudformation:ap-south-1:513797383767:stack/amplify-buzzerapp-staging-102730/b37d1970-a088-11ed-877b-06b4a2344da0",
+      "AmplifyAppId": "d29lpcjgxuhvt6"
+    },
+    "categories": {
+      "function": {
+        "buzzerapi": {}
+      }
+    }
+  }
+}

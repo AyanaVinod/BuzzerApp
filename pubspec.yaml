@@ -1,0 +1,159 @@
+name: buzzerapp
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  lottie: ^2.3.1
+  cloud_firestore: ^4.3.1
+  path_provider: ^2.0.14
+  flutter_share: ^2.0.0
+  share_files_and_screenshot_widgets: ^1.0.6
+  image_gallery_saver: ^1.7.1
+  android_intent_plus: ^3.1.6
+  image: ^3.1.0
+  screenshot: ^1.3.0
+  share_plus: ^6.3.1
+  share: ^2.0.4
+  share_extend: ^2.0.0
+  otp: ^3.1.4
+  url_launcher: ^6.1.10
+  amplify_api: ^0.6.0
+  amplify_auth_cognito: ^0.6.0
+  amplify_authenticator: ^0.2.2
+  amplify_datastore: ^0.6.0
+  amplify_flutter: ^0.6.0
+  amplify_storage_s3: ^0.6.0
+  flutter_webrtc: ^0.3.0
+  cached_network_image: ^3.2.1
+  flutter_hooks: ^0.18.5+1
+  flutter_riverpod: ^1.0.4
+  go_router: ^4.1.0
+  hooks_riverpod: ^1.0.4
+  image_picker: ^0.8.5+3
+  intl: ^0.17.0
+  animated_text_kit: ^4.2.2
+  ntp: ^2.0.0
+  pinput: ^2.2.21
+  logger: ^1.1.0
+  http: ^0.13.4
+  timezone: ^0.9.1
+  group_button: ^5.2.2
+  flutter_kronos: ^0.1.0+1
+  jiffy: ^5.0.0
+  number_inc_dec: ^0.8.0
+  qr_flutter: ^4.0.0
+  quantity_input: ^1.0.2
+  input_quantity: ^1.1.2
+  tab_switcher: ^1.0.1
+  show_up_animation: ^1.0.2
+  tab_indicator_styler: ^2.0.0
+  dotted_border: ^2.0.0+3
+  sizer: ^2.0.15
+  jwtson: ^1.0.7
+  provider: ^6.0.3
+  aws_dynamodb_api: ^2.0.0
+  spacer: ^1.0.0
+  aws_sdk: ^0.0.3
+  socket_io_client: 1.0.1
+  qr_code_scanner: ^1.0.1
+  orientation: ^1.3.0
+  assets_audio_player: ^3.0.6
+  system_clock: ^2.0.0
+  timer_builder: ^2.0.0
+  uuid: ^3.0.4
+  logging: ^1.0.0
+dev_dependencies:
+  test: ^1.0.0+1
+  path: ^1.0.0+1
+  pedantic: ^1.11.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy-Regular.ttf
+        - asset: assets/fonts/Gilroy-Black.ttf
+        - asset: assets/fonts/Gilroy-BlackItalic.ttf
+        - asset: assets/fonts/Gilroy-Bold.ttf
+        - asset: assets/fonts/Gilroy-BoldItalic.ttf
+        - asset: assets/fonts/Gilroy-ExtraBold.ttf
+        - asset: assets/fonts/Gilroy-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Gilroy-Heavy.ttf
+        - asset: assets/fonts/Gilroy-HeavyItalic.ttf
+        - asset: assets/fonts/Gilroy-Light.ttf
+        - asset: assets/fonts/Gilroy-LightItalic.ttf
+        - asset: assets/fonts/Gilroy-Medium.ttf
+        - asset: assets/fonts/Gilroy-MediumItalic.ttf
+        - asset: assets/fonts/Gilroy-RegularItalic.ttf
+        - asset: assets/fonts/Gilroy-SemiBold.ttf
+        - asset: assets/fonts/Gilroy-SemiBoldItalic.ttf
+        - asset: assets/fonts/Gilroy-Thin.ttf
+        - asset: assets/fonts/Gilroy-ThinItalic.ttf
+        - asset: assets/fonts/Gilroy-UltraLight.ttf
+        - asset: assets/fonts/Gilroy-UltraLightItalic.ttf
+          weight: 700
+
+  assets:
+    - assets/images/ic_arrow.png
+    - assets/images/ic_Sign_out_squre_light.png
+    - assets/images/ic_userlogo.png
+    - assets/images/ic_Logo_Quiztime.png
+    - assets/images/ic_pattern_top.png
+    - assets/images/ic_pattern_bottom.png
+    - assets/images/ic_FlyingSaucericon.png
+    - assets/images/ic_qrcode.png
+    - assets/images/ic_pin.png
+    - assets/images/ic_buzzerRed.png
+    - assets/images/ic_green_animated.png
+    - assets/images/ic_qrcodegenerated.png
+    - assets/images/ic_ArrowLeft.png
+    - assets/images/ic_QRScanneer.png
+    - assets/images/ic_pinBox.png
+    - assets/images/ic_border.png
+    - assets/images/ic_cross.png
+    - assets/images/ic_boxpattern.png
+    - assets/images/ic_target.png
+    - assets/images/ic_Yaayy!.png
+    - assets/images/ic_you won a chance.png
+    - assets/images/ic_firstposition_icon.png
+    - assets/images/ic_one.png
+    - assets/images/ic_SmileySticker.png
+    - assets/images/ic_Snowflake.png
+    - assets/images/ic_scored_one.png
+    - assets/images/ic_second_scored.png
+    - assets/images/ic_rectangle_three.png
+    - assets/images/ic_three.png
+    - assets/images/ic_CircleWavyCheck.png
+    - assets/images/ic_smiley_grey.png
+    - assets/images/ic_buzzergreen.png
+    - assets/images/ic_smiley_yellow.png
+    - assets/images/ic_winning.png
+    - assets/images/ic_winners_cup.png
+    - assets/images/ic_share.png
+    - assets/images/ic_three_white.png
+    - assets/images/ic_usergear.png
+    - assets/images/ic_users_three.png
+    - assets/images/ic_model.png
+    - assets/images/ic_scored_text_upper.png
+    - assets/images/ic_scored.png
+    - assets/images/ic_scored_text_below.png
+    - assets/audio/default.mp3
+    - assets/audio/Sound1.mp3
+    - assets/audio/Sound2.mp3
+    - assets/audio/Sound3.mp3
+    - assets/audio/Sound4.mp3
+    - assets/strings/en.json
+    - assets/lottie/confetti-full-screen.json
+    - assets/lottie/winner_prize.json
+
+

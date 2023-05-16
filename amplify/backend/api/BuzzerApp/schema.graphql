@@ -1,0 +1,16 @@
+type Table2 @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  TimeStamp: AWSTime
+  PlayerName: String
+  DeviceID: Int
+  Table1s: [Table1] @hasMany(indexName: "byTable2", fields: ["id"])
+}
+
+type Table1 @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  PlayerName: String
+  PinNumber: String
+  TimeLimit: Int
+  NumofPlayers: Int
+  table2ID: ID! @index(name: "byTable2")
+}
